@@ -66,7 +66,7 @@
     console.log(s2);
 //    选择所有编程语言
 //通过class属性查找
-   var s3 = $('[class^="color-"]').text();//尤其注意[ ^ ]这个符号,可以找出class中以color-开头的所有标签
+   var s3 = $('[class^="color-"]').text();
     console.log(s3);
 //    选择名字input
    var s4 = $('input[name="name"]');

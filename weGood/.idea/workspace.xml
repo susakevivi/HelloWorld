@@ -39,8 +39,8 @@
       <file leaf-file-name="test.ftl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/FTL/test.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.88610476">
-              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+            <state vertical-scroll-proportion="2.0820045">
+              <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -874,7 +874,7 @@
       <option name="number" value="Default" />
       <updated>1450666167830</updated>
       <workItem from="1450666169565" duration="1276000" />
-      <workItem from="1450667775213" duration="7701000" />
+      <workItem from="1450667775213" duration="9003000" />
     </task>
     <task id="LOCAL-00001" summary="susake更新的文件">
       <created>1450669877143</created>
@@ -892,10 +892,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8977000" />
+    <option name="totallyTimeSpent" value="10279000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="117" y="16" width="1446" height="828" extended-state="1" />
+    <frame x="117" y="16" width="1446" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -984,8 +984,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/FTL/test.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88610476">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        <state vertical-scroll-proportion="2.0820045">
+          <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
           <folding />
         </state>
       </provider>

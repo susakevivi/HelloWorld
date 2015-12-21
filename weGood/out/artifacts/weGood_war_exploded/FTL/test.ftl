@@ -29,9 +29,37 @@
       //练习子选择器
       var s2 = $('ul.lang>li.lang-javascript').text();
       console.log("文本"+s2);
-      //旧版本也许不可以,新版本已经消掉了这个限制
+      //越过直接的父子包含关系,无法选择
       var s3 = $('div.testing>li.lang-javascript').text();
       console.log("文本111"+s3);
   </script>
+
+   <div class="test-selector">
+       <ul class="test-lang">
+           <li class="lang-javascript">JavaScript</li>
+           <li class="lang-python">Python</li>
+           <li class="lang-lua">Lua</li>
+       </ul>
+       <ol class="test-lang">
+           <li class="lang-swift">Swift</li>
+           <li class="lang-java">Java</li>
+           <li class="lang-c">C</li>
+       </ol>
+   </div>
+
+   <script type="text/javascript">
+       // 分别选择所有语言，所有动态语言，所有静态语言，JavaScript，Lua，C等:
+       var s = $('div.test-selector li').text();
+       console.log("打印所有语言:"+s);
+       //所有动态语言
+       var s1 = $('ul.test-lang li').text();
+       console.log(s1);
+       //所有的静态语言
+       var s2 = $('ol.test-lang li').text();
+       console.log(s2);
+       //javascript
+       var s3 = $('div.test-selector li.lang-javascript,li.lang-lua,li.lang-c').text();
+       console.log(s3);
+   </script>
 </body>
 </html>

@@ -117,10 +117,11 @@
                      //输出name和对应的值
                     console.log("this.name:"+this.name+"this.value:"+this.value);
                     //将name和value用键值对的形式对应起来
+                    //转换为json形式
                     json[this.name] = this.value; }
             });
-               //转换为json形式
-            //json=JSON.stringify(json);
+               //检查是否为json形式
+               json=JSON.stringify(json);
 
                 console.log(json);
             });
